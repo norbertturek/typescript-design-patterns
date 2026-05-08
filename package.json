@@ -1,0 +1,28 @@
+{
+  "name": "typescript-design-patterns",
+  "version": "1.0.0",
+  "description": "GoF Design Patterns implemented in TypeScript with real-world e-commerce examples",
+  "scripts": {
+    "factory-method": "npx tsx creational/factory-method/index.ts",
+    "abstract-factory": "npx tsx creational/abstract-factory/index.ts",
+    "builder": "npx tsx creational/builder/index.ts",
+    "prototype": "npx tsx creational/prototype/index.ts",
+    "adapter": "npx tsx structural/adapter/index.ts",
+    "composite": "npx tsx structural/composite/index.ts",
+    "decorator": "npx tsx structural/decorator/index.ts",
+    "facade": "npx tsx structural/facade/index.ts",
+    "proxy": "npx tsx structural/proxy/index.ts",
+    "chain-of-responsibility": "npx tsx behavioral/chain-of-responsibility/index.ts",
+    "command": "npx tsx behavioral/command/index.ts",
+    "iterator": "npx tsx behavioral/iterator/index.ts",
+    "mediator": "npx tsx behavioral/mediator/index.ts",
+    "memento": "npx tsx behavioral/memento/index.ts",
+    "observer": "npx tsx behavioral/observer/index.ts",
+    "state": "npx tsx behavioral/state/index.ts",
+    "strategy": "npx tsx behavioral/strategy/index.ts",
+    "template-method": "npx tsx behavioral/template-method/index.ts"
+  },
+  "keywords": ["design-patterns", "typescript", "gof", "refactoring", "oop"],
+  "author": "Norbert Turek",
+  "license": "MIT"
+}
