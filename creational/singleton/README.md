@@ -94,3 +94,5 @@ In NestJS/Angular you register a service as a singleton in the DI container — 
 - **Facade** can often be a Singleton — one facade object is enough for the entire application
 - **Flyweight** vs **Singleton**: Flyweight can have multiple instances with different states; Singleton — always one; Singleton can be mutable, Flyweight is immutable
 - **Abstract Factory**, **Builder**, and **Prototype** can be implemented as Singleton
+
+> No runnable example — Singleton is treated as an anti-pattern in this repo. Prefer DI containers (NestJS, InversifyJS) for managing shared instances.

@@ -22,7 +22,7 @@ npm run proxy
 | [Abstract Factory](./creational/abstract-factory/README.md) | Creates families of related objects, guaranteeing they match | `npm run abstract-factory` |
 | [Builder](./creational/builder/README.md) | Constructs complex objects step by step; Director controls the sequence | `npm run builder` |
 | [Prototype](./creational/prototype/README.md) | Clones existing objects without depending on their concrete classes | `npm run prototype` |
-| [Singleton](./creational/singleton/README.md) | Guarantees exactly one instance; global access point (⚠️ prefer DI) | `npm run singleton` |
+| [Singleton](./creational/singleton/README.md) | Guarantees exactly one instance; global access point (⚠️ anti-pattern — prefer DI) | — |
 
 ---
 
